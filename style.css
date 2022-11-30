@@ -5,6 +5,7 @@
 
 body {
   font-family: sans-serif;
+  margin-bottom: 50px;
   /*background-image: url("taxi1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -269,6 +270,14 @@ p .container2 {
 .middle {
   width: 50%;
 }
+
+.column a {
+  text-decoration: none;
+  color: #010101;
+}
+.column a:hover {
+  text-decoration: underline;
+}
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -314,5 +323,12 @@ p .container2 {
   }
   .first-item {
     max-width: 550px;
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 50px;
   }
 }
